@@ -1,0 +1,20 @@
+baseURL = "https://odpal.dajznak.pl/"
+languageCode = "pl"
+title = "Daj Znak"
+theme = "hugo-cards"
+
+DefaultContentLanguage = "pl"
+
+[languages]
+  [languages.pl]
+    weight = 1
+    title = "Daj znak!"
+    [languages.pl.params]
+    [languages.pl.params.navigation]
+	about = "Nasza inicjatywa"
+	contact = "Daj nam znak"
+  [languages.de]
+    weight = 2
+    title = "Daj znak!"
+    [languages.de.params]
+    [languages.de.params.navigation]
