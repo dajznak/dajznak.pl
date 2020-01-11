@@ -1,7 +1,7 @@
 languageCode = "pl"
 title = "Daj Znak"
 theme = "hugo-cards"
-
+enableRobotsTXT = true
 DefaultContentLanguage = "pl"
 
 [languages]
