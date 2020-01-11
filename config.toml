@@ -1,4 +1,3 @@
-baseURL = "https://odpal.dajznak.pl/"
 languageCode = "pl"
 title = "Daj Znak"
 theme = "hugo-cards"
@@ -10,6 +9,7 @@ DefaultContentLanguage = "pl"
     weight = 1
     title = "Daj znak!"
     [languages.pl.params]
+        defaultImage = "frankfurt-2020-simple.svg"
     [languages.pl.params.navigation]
 	about = "Nasza inicjatywa"
 	contact = "Daj nam znak"
@@ -17,4 +17,5 @@ DefaultContentLanguage = "pl"
     weight = 2
     title = "Daj znak!"
     [languages.de.params]
+        defaultImage = "frankfurt-2020-simple.svg"
     [languages.de.params.navigation]
