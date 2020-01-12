@@ -6,7 +6,7 @@ img: dajznak-peter-feldmann.jpeg
 
 ---
 
-Piękny wieczór we frankfurckim Ratuszu - dziś [Rada Obcokrajowców KAV]({{< ref "kommunale-auslaender-vertretung.md" >}}) przyznała nagrody wybitnym osobowościom obcego pochodzenia.
+Piękny wieczór we frankfurckim Ratuszu - dziś [Rada Obcokrajowców KAV]({{< ref "kav.md" >}}) przyznała nagrody wybitnym osobowościom obcego pochodzenia.
 
 <!--more-->
 Laudatio wygłaszał Jumas Medoff, przewodniczący frankfurckiej Rady Obcokrajowców. 
