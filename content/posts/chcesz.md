@@ -3,7 +3,6 @@ title: "Wybieramy Polaków!"
 date: 2020-01-10T19:14:00Z
 img: frankfurt-2020-simple.svg
 weight: 10
-draft: true
 ---
 
 Chcesz, żeby Polacy mieli swoją reprezentację we Frankfurcie?

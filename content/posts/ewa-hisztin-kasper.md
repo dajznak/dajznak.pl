@@ -2,8 +2,7 @@
 title: "Ewa Hisztin-Kasper"
 date: 2020-01-11T03:50:40Z
 img: ewa-hisztin-kasper.jpeg
-weight: 20
-draft: true
+weight: 50
 ---
 
 Przewodnicząca [rady obcokrajowców w Liederbach/Taunus](https://www.liederbach.eu/seite/de/gemeinde/1391/-/Der_Auslaenderbeirat.html) wyjaśnia nam,

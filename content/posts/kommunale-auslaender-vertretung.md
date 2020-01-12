@@ -1,8 +1,7 @@
 ---
 title: "Rada obcokrajowców"
 date: 2020-01-10T19:06:42Z
-draft: true
-weight: 30
+weight: 40
 img: kav-obraduje.jpeg
 ---
 Aby wreszcie zacząć zmieniać sytuację Polaków w Niemczech, musimy zacząć od naszego miasta.

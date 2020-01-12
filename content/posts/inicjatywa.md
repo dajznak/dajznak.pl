@@ -1,8 +1,8 @@
 ---
 title: "Inicjatywa"
 date: 2020-01-11T05:12:47Z
-draft: true
 toplevel: true
+
 ---
 
 Jesteśmy grupą zaangażowanych politycznie i społecznie wolontariuszy, 
