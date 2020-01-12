@@ -1,7 +1,6 @@
 ---
 title: "Możesz głosować i kandydować"
 date: 2020-01-10T00:00:03Z
-draft: true
 weight: 60
 img: steffen-moeller.jpeg
 ---

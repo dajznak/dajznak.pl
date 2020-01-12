@@ -2,7 +2,7 @@
 title: "Tylko Frankfurt?"
 date: 2020-01-10T19:08:53Z
 draft: true
-weight: 40
+weight: 90
 img: minotaur-offenbach.jpeg
 ---
 Nie jesteś z Frankfurtu?
