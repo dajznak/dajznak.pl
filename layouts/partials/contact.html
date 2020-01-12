@@ -1,0 +1,40 @@
+<form class="form-login" method="post" action="{{ .Site.BaseURL }}zapisz">
+{{ if ne .Section "pages" }}
+  <h3>Chcesz wiedzieć więcej?</h3>
+{{ end }}
+  <div class="form-subscribe-with-email">
+
+  <div class="form-white-background">
+
+  <div class="form-row">
+  <label>
+  <span>Mail</span>
+  </label>
+  <input type="email" name="email">
+  </div>
+
+  <div class="form-row">
+  <label>
+  <span>Telefon</span>
+  </label>
+  <input type="text" name="telefon">
+  </div>
+
+  <div class="form-row">
+  <label>
+  <span>Miejscowość</span>
+  </label>
+  <input type="text" name="skad">
+  </div>
+
+
+  <div class="form-row">
+  <button type="submit">Daj nam znak</button>
+{{ if ne .Section "pages" }}
+  <span id="dane"><a href="/pages/kontakt/?moje-dane">Twoje dane?</a></span>
+{{ end }}
+  </div>
+
+  </div>
+  </div>
+</form>
