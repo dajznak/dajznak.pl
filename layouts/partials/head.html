@@ -9,6 +9,7 @@
 {{ $main := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed")}}
 <link rel="stylesheet" href="{{ $main.RelPermalink }}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+{{ template "css/contact.html" }}
 {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
