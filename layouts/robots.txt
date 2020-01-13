@@ -1,4 +1,4 @@
 Sitemap: {{ "sitemap.xml" | absURL }}
 User-Agent: *
 Disallow: /pages/dziekujemy/
-Disallow: /zapisz/
+Disallow: /zapisz
