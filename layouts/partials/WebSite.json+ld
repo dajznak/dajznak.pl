@@ -1,0 +1,11 @@
+{ 
+  "@context": "http://schema.org", 
+  "@type": "WebSite", 
+  "url": "{{ .Permalink }}", 
+  "name": "{{ .Site.Title }}",
+   "author": {
+      "@type": "Person",
+      "name": "{{ .Site.Params.author }}"
+    },
+  "description": "{{ .Site.Params.description }}"
+}
