@@ -2,13 +2,6 @@
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="{{ .Permalink }}" />
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:description" content="{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}" />
-<meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
-<meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
-<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-
 <!-- OG data -->
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" property="og:title">
