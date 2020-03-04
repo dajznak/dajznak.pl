@@ -5,9 +5,5 @@
     "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",  
     "url": "{{ .Permalink }}",
     "datePublished": {{ time .Date }},
-    "description": "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}",
-    "author": {
-        "@type": "Person",
-        "name": "{{ .Site.Author.name }}"
-    }
+    "description": "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}"
 }

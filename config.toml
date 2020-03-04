@@ -8,14 +8,17 @@ DefaultContentLanguage = "pl"
   [languages.pl]
     weight = 1
     title = "Daj znak!"
+    description = "Inicjatywa polityczna w Hesji"
     [languages.pl.params]
         defaultImage = "frankfurt-2020-simple.svg"
+        tagline = "WYBORY to nasza sprawa"
     [languages.pl.params.navigation]
 	about = "Nasza inicjatywa"
 	contact = "Daj nam znak"
   [languages.de]
     weight = 2
     title = "Daj znak!"
+    description = "politische Initiative"
     [languages.de.params]
         defaultImage = "frankfurt-2020-simple.svg"
     [languages.de.params.navigation]
