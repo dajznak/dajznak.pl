@@ -4,6 +4,6 @@
     "headline": "{{ .Title }}",
     "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",  
     "url": "{{ .Permalink }}",
-    "datePublished": {{ time .Date }},
+    "datePublished": "{{ .Date.UTC.Format "2006-01-02T15:04:05Z0700" }}",
     "description": "{{ if .Description }}{{ .Description | plainify }}{{ else }}{{if .IsPage}}{{ .Summary | plainify  }}{{ end }}{{ end }}"
 }
